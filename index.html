@@ -1,0 +1,919 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1, maximum-scale-1">
+    <title>Restaurant demo site</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-animation.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" type="text/css" href="css/venobox.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,600i,700" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+<!-------preloader part start--------->
+<div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+</div> 
+ 
+<!--
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+-->
+    
+<!-------preloader part end--------->
+    
+<!-------navbar part start--------->    
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo2.png" alt="logo">
+            <i class="fas fa-utensils"></i>
+        </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" target="_blank">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html" target="_blank">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reserve.html" target="_blank">Reservation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html" target="_blank">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="offer.html" target="_blank">Offer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html" target="_blank">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+              </li>
+            </ul>
+          </div>
+    </div>
+</nav>
+<!-------------- navbar part end------------------------>
+
+<!-------------- banner part start------------------------>
+<section id="banner">
+   <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="banner-main text-center">
+                    <h1 class="font-title">Welcome to My Restaurant</h1>
+                    <h3>Hunger Restaurant & Party Center</h3>
+<!--                    <h3>Hunger <span class="typer"></span></h3>-->
+                    <p>Delicious spicy tasty food ready in restaurant & Fun. Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    <div class="banner-a">
+                        <a href="#reserv">Book a Table <i class="fas fa-utensils"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#about" class="scroll-animate-icon page-scroll">
+       <i class="fa fa-angle-double-down faa-falling animated"></i>
+    </a>
+</section>
+<!-------------- banner part end------------------------>
+
+<!-------------- about part start------------------------>
+<section id="about">
+   <div class="about-lay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="abt-txt text-center">
+                    <h2 class="font-title">About Us</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 about-main"> 
+                <div class="about-item">
+                    <h3>Our Journey</h3>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6 col-md-6">
+                            <div class="items">
+                                <div class="card">
+                                <img src="images/item.jpeg" alt="item" class="img-fluid w-100">
+                                <div class="abt-effect">
+                                    <div class="effect-txt text-center">
+                                        <i class="fas fa-briefcase"></i>
+                                        <h4>2002</h4> 
+                                    </div>   
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 col-md-6">
+                            <div class="items">
+                                <div class="card">
+                                <img src="images/item2.jpeg" alt="item" class="img-fluid w-100">
+                                <div class="abt-effect">
+                                    <div class="effect-txt text-center">
+                                        <i class="fas fa-briefcase"></i>
+                                        <h4>2006</h4> 
+                                    </div>   
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 col-md-6">
+                            <div class="items">
+                                <div class="card">
+                                <img src="images/item3.jpeg" alt="item" class="img-fluid w-100">
+                                <div class="abt-effect">
+                                    <div class="effect-txt text-center">
+                                        <i class="fas fa-briefcase"></i>
+                                        <h4>2014</h4> 
+                                    </div>   
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 col-md-6">
+                            <div class="items">
+                                <div class="card">
+                                <img src="images/item4.jpeg" alt="item" class="img-fluid w-100">
+                                <div class="abt-effect">
+                                    <div class="effect-txt text-center">
+                                        <i class="fas fa-briefcase"></i>
+                                        <h4>2019</h4> 
+                                    </div>   
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-lg-6 about-main"> 
+                <div class="story-txt">
+                    <h3>Story</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quis magnam, odio, aspernatur suscipit labore saepe laborum eaque numquam, consequatur sit minima similique. Soluta illum adipisci delectus maiores facere eos! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ullam ut neque nesciunt maxime.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eum voluptatibus, ipsum fugit quam inventore molestias repudiandae cum officiis.</p>
+                    <div class="abt-a">
+                        <a href="#reserv">Book a table <i class="fas fa-utensils"></i></a>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <a href="#menu-list" class="scroll-animate-icon page-scroll">
+       <i class="fa fa-angle-double-down faa-falling animated"></i>
+    </a>
+</section>
+<!-------------- about part end------------------------>
+
+<!-------------- menu part start------------------------>
+<section id="menu-list">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="abt-txt text-center">
+                    <h2 class="font-title">Our Menu</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="menu-item text-center">
+                    <div class="button-group">                     
+                        <button class="button is-checked" data-filter="all">All Platter</button>
+                        <button class="button" data-filter=".Breakfast">Breakfast</button>
+                        <button class="button" data-filter=".Lunch">Lunch</button>
+                        <button class="button" data-filter=".Snack">Snack</button>
+                        <button class="button" data-filter=".Dinner">Dinner</button> 
+                    </div>
+                </div>
+            </div>        
+        </div>
+        
+        <div class="row port-item">
+            <div class="col-lg-3 col-sm-6 col-md-6 mix Breakfast">
+                <div class="menu-list text-center">
+                    <div class="menu-img">
+                        <img src="images/menu1.jpeg" alt="menu1" class="img-fluid w-100">
+                        <h4><i class="fas fa-utensils"></i></h4>
+                    </div>                  
+                    <h5>Kabab & Porata</h5>
+                    <p>Price $ 12</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-6 mix Lunch">
+                <div class="menu-list text-center">
+                    <div class="menu-img">
+                        <img src="images/menu2.jpeg" alt="menu1" class="img-fluid w-100">
+                        <h4><i class="fas fa-utensils"></i></h4>
+                    </div>                  
+                    <h5>Brown Fish Fillet</h5>
+                    <p>Price $ 9</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-6 mix Dinner">
+                <div class="menu-list text-center">
+                    <div class="menu-img">
+                        <img src="images/menu8.jpeg" alt="menu1" class="img-fluid w-100">
+                        <h4><i class="fas fa-utensils"></i></h4>
+                    </div>                  
+                    <h5>Egg On Fried Rice</h5>
+                    <p>Price $ 4.80</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-6 mix Snack Dinner">
+                <div class="menu-list text-center">
+                    <div class="menu-img">
+                        <img src="images/menu3.jpeg" alt="menu1" class="img-fluid w-100">
+                        <h4><i class="fas fa-utensils"></i></h4>
+                    </div>                  
+                    <h5>Grilled Dish With Vegetables</h5>
+                    <p>Price $ 8</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-6 mix Breakfast Snack">
+                <div class="menu-list text-center">
+                    <div class="menu-img">
+                        <img src="images/menu4.jpeg" alt="menu1" class="img-fluid w-100">
+                        <h4><i class="fas fa-utensils"></i></h4>
+                    </div>                
+                    <h5>Pasta With Tomato</h5>
+                    <p>Price $ 7.5</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-6 mix Snack Lunch">
+                <div class="menu-list text-center">
+                    <div class="menu-img">
+                        <img src="images/menu6.jpeg" alt="menu1" class="img-fluid w-100">
+                        <h4><i class="fas fa-utensils"></i></h4>
+                    </div>                  
+                    <h5>Chicken Grill</h5>
+                    <p>Price $ 10</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-6 mix Breakfast Snack">
+                <div class="menu-list text-center">
+                    <div class="menu-img">
+                        <img src="images/menu7.jpeg" alt="menu1" class="img-fluid w-100">
+                        <h4><i class="fas fa-utensils"></i></h4>
+                    </div>
+                    <h5>Lime Juice</h5>
+                    <p>Price $ 5.80</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-md-6 mix Lunch Snack">
+                <div class="menu-list text-center">
+                    <div class="menu-img">
+                        <img src="images/menu5.jpeg" alt="menu1" class="img-fluid w-100">
+                        <h4><i class="fas fa-utensils"></i></h4>
+                    </div>
+                    <h5>Snack</h5>
+                    <p>Price $ 5</p>
+                </div>
+            </div>   
+        </div>         
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="view text-center">
+                    <a href="menu.html" target="_blank">View More Recipe</a>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <a href="#reserv" class="scroll-animate-icon page-scroll">
+       <i class="fa fa-angle-double-down faa-falling animated"></i>
+    </a>
+</section>
+<!-------------- menu part end------------------------>
+
+<!-------------- reservation part start------------------------>
+<section id="reserv">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="abt-txt text-center">
+                    <h2 class="font-title">Reservation Now</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 m-auto">
+                <div class="confirm">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control person" id="exampleFormControlInput1" placeholder="Person">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control tel" id="exampleFormControlInput1" placeholder="Telephone">
+                    </div>
+                    <div class="form-group">
+                        <input type="date" class="form-control date" id="exampleFormControlInput1" placeholder="Date">
+                    </div>
+                    <div class="form-group">
+                        <input type="time" class="form-control time" id="exampleFormControlInput1" placeholder="Time">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-btn text-center">
+                        <button type="submit" class="btn btn-primary">Book Now <i class="fas fa-utensils"></i></button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#chef" class="scroll-animate-icon page-scroll">
+       <i class="fa fa-angle-double-down faa-falling animated"></i>
+    </a>
+</section>
+<!-------------- reservation part end------------------------>
+
+<!-------------- chef part start------------------------>
+<section id="chef">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="abt-txt text-center">
+                    <h2 class="font-title">Meet Our Expert</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row chef-slider">
+            <div class="col-lg-4">
+                <div class="chef-item text-center">
+                    <div class="chef-img">
+                        <img src="images/chef1.jpg" alt="chef" class="img-fluid w-100">
+                    </div>
+                    <h3>Shahadat hossain</h3>
+                    <p>Head Chef</p>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="chef-item text-center">
+                    <div class="chef-img">
+                        <img src="images/chef2.jpeg" alt="chef" class="img-fluid w-100">
+                    </div>
+                    <h3>Angela Julia</h3>
+                    <p>Head Chef</p>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="chef-item text-center">
+                    <div class="chef-img">
+                        <img src="images/chef4.jpeg" alt="chef" class="img-fluid w-100">
+                    </div>
+                    <h3>Robarto Mark</h3>
+                    <p>Head Chef</p>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="chef-item text-center">
+                    <div class="chef-img">
+                        <img src="images/chef2.jpeg" alt="chef" class="img-fluid w-100">
+                    </div>
+                    <h3>Angela Julia</h3>
+                    <p>Head Chef</p>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#gallery" class="scroll-animate-icon page-scroll">
+       <i class="fa fa-angle-double-down faa-falling animated"></i>
+    </a>
+</section>
+<!-------------- chef part end------------------------>
+
+<!-------------- gallery part start------------------------>
+<section id="gallery">
+    <div class="row mx-0">
+        <div class="col-lg-10 m-auto">
+            <div class="abt-txt text-center">
+                <h2 class="font-title">Hunger Food Gallery</h2>
+            </div>
+        </div>
+    </div>
+    <div class="row gall-main mx-0">
+        <div class="col-lg-3 col-sm-6 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery1-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery1-bg.jpeg" data-lightbox="image-1" data-title="Grilled Meat">
+                            <i class="fas fa-search-plus"></i>   
+                        </a>
+                        <h3>Grilled Meat</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery2-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery2-bg.jpeg" data-lightbox="image-1" data-title="Delicious Food">
+                            <i class="fas fa-search-plus"></i>   
+                        </a> 
+                        <h3>Delicious Food</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery3-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery3-bg.jpeg" data-lightbox="image-1" data-title="Dosa">
+                            <i class="fas fa-search-plus"></i>   
+                        </a> 
+                        <h3>Dosa</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery4-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery4-bg.jpeg" data-lightbox="image-1" data-title="Vegetable Pasta">
+                            <i class="fas fa-search-plus"></i>   
+                        </a>   
+                        <h3>Vegetable Pasta</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery5-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery5-bg.jpeg" data-lightbox="image-1" data-title="Special Salad">
+                            <i class="fas fa-search-plus"></i>   
+                        </a> 
+                        <h3>Special Salad</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery6-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery6-bg.jpeg" data-lightbox="image-1" data-title="Chocolate Cake">
+                            <i class="fas fa-search-plus"></i>   
+                        </a>  
+                        <h3>Chocolate Cake</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery7-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery7-bg.jpeg" data-lightbox="image-1" data-title="Fish Fry">
+                            <i class="fas fa-search-plus"></i>   
+                        </a>   
+                        <h3>Fish Fry</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery8-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery8-bg.jpeg" data-lightbox="image-1" data-title="Beverage">
+                            <i class="fas fa-search-plus"></i>   
+                        </a>  
+                        <h3>Beverage</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#offer" class="scroll-animate-icon page-scroll">
+       <i class="fa fa-angle-double-down faa-falling animated"></i>
+    </a>
+</section>
+<!-------------- gallery part end------------------------>
+
+<!-------------- offer part start------------------------>
+<section id="offer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="abt-txt pack text-center">
+                    <h2 class="font-title">Our Special Offer</h2>
+                    <p>Today's Offer</p>
+                </div>
+            </div>
+        </div>
+        <div class="row offer-slider">
+            <div class="col-lg-3">
+                <div class="offer-item">
+                    <div class="off-img">
+                        <img src="images/offer1.jpeg" alt="pizza" class="img-fluid w-100">
+                        <div class="price text-center">
+                            <p>$ 5</p>
+                        </div>
+                        <div class="of-sll text-center">
+                             <i class="fas fa-thumbs-up"></i>   
+                        </div>
+                        <div class="of-slr text-center">
+                             <i class="fas fa-comment"></i>  
+                        </div>
+                    </div>
+                    <h3>Pizza</h3>
+                    <h4>Standard Box Sizes. 8" is personal size.</h4>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="offer-item">
+                    <div class="off-img">
+                        <img src="images/offer4.jpeg" alt="pizza" class="img-fluid w-100">
+                        <div class="price text-center">
+                            <p>$ 6</p>
+                        </div>
+                        <div class="of-sll text-center">
+                             <i class="fas fa-thumbs-up"></i>   
+                        </div>
+                        <div class="of-slr text-center">
+                             <i class="fas fa-comment"></i>  
+                        </div>
+                    </div>
+                    <h3>BBQ</h3>
+                    <h4>Charcoal Grill</h4>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="offer-item">
+                    <div class="off-img">
+                        <img src="images/offer3.jpeg" alt="pizza" class="img-fluid w-100">
+                        <div class="price text-center">
+                            <p>$ 3</p>
+                        </div>
+                        <div class="of-sll text-center">
+                             <i class="fas fa-thumbs-up"></i>   
+                        </div>
+                        <div class="of-slr text-center">
+                             <i class="fas fa-comment"></i>  
+                        </div>
+                    </div>
+                    <h3>Burger</h3>
+                    <h4>Standard Box Sizes. 4.5" is personal size</h4>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="offer-item">
+                    <div class="off-img">
+                        <img src="images/offer2.jpeg" alt="pizza" class="img-fluid w-100">
+                        <div class="price text-center">
+                            <p>$ 2</p>
+                        </div>
+                        <div class="of-sll text-center">
+                             <i class="fas fa-thumbs-up"></i>   
+                        </div>
+                        <div class="of-slr text-center">
+                             <i class="fas fa-comment"></i>  
+                        </div>
+                    </div>
+                    <h3>Shawarma</h3>
+                    <h4>Chicken Shawarma</h4>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="offer-item">
+                    <div class="off-img">
+                        <img src="images/offer5.jpeg" alt="pizza" class="img-fluid w-100">
+                        <div class="price text-center">
+                            <p>$ 4</p>
+                        </div>
+                        <div class="of-sll text-center">
+                             <i class="fas fa-thumbs-up"></i>   
+                        </div>
+                        <div class="of-slr text-center">
+                             <i class="fas fa-comment"></i>  
+                        </div>
+                    </div>
+                    <h3>Burger</h3>
+                    <h4>Burger & French fry</h4>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="offer-item">
+                    <div class="off-img">
+                        <img src="images/offer6.jpg" alt="pizza" class="img-fluid w-100">
+                        <div class="price text-center">
+                            <p>$ 3</p>
+                        </div>
+                        <div class="of-sll text-center">
+                             <i class="fas fa-thumbs-up"></i>   
+                        </div>
+                        <div class="of-slr text-center">
+                             <i class="fas fa-comment"></i>  
+                        </div>
+                    </div>
+                    <h3>Choklet</h3>
+                    <h4>Choklet Pack</h4>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="offer-item">
+                    <div class="off-img">
+                        <img src="images/offer7.jpg" alt="pizza" class="img-fluid w-100">
+                        <div class="price text-center">
+                            <p>$ 2</p>
+                        </div>
+                        <div class="of-sll text-center">
+                             <i class="fas fa-thumbs-up"></i>   
+                        </div>
+                        <div class="of-slr text-center">
+                             <i class="fas fa-comment"></i>  
+                        </div>
+                    </div>
+                    <h3>Tea</h3>
+                    <h4>Raw Tea</h4>
+                </div>
+            </div>
+        </div>
+        <div class="offer-pre-next text-center">
+            <i class="fas fa-chevron-left left-offer"></i>
+            <i class="fas fa-chevron-right right-offer"></i>
+        </div>
+    </div>
+    <a href="#testimonial" class="scroll-animate-icon page-scroll">
+       <i class="fa fa-angle-double-down faa-falling animated"></i>
+    </a>
+</section>
+<!-------------- offer part end------------------------>
+
+<!-------------- testimonial part start------------------------>
+<section id="testimonial">
+   <div class="testi-overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="abt-txt pack text-center">
+                    <h2 class="font-title">Testimonial</h2>
+                    <p>Our Customer Says</p>
+                </div>
+            </div>
+        </div>
+        <div class="row testi-slider">
+            <div class="col-lg-10 m-auto">
+                <div class="says text-center">
+                    <i class="fas fa-smile"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ipsam porro alias, neque mollitia illum eligendi doloribus nulla ex. Lorem ipsum dolor sit amet.</p>
+                    <img src="images/man2.png" alt="man">
+                    <h5>Shahadat hossain</h5>
+                </div>
+            </div>
+            <div class="col-lg-10 m-auto">
+                <div class="says text-center">
+                    <i class="fas fa-smile"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse ipsam porro alias, neque mollitia illum eligendi doloribus nulla ex.</p>
+                    <img src="images/man1.png" alt="man">
+                    <h5>Mahadi Tahsan</h5>
+                </div>
+            </div>
+            <div class="col-lg-10 m-auto">
+                <div class="says text-center">
+                    <i class="fas fa-smile"></i>
+                    <p>Esse ipsam porro alias, neque mollitia illum eligendi doloribus nulla ex. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat.</p>
+                    <img src="images/man2.png" alt="man">
+                    <h5>Anam hossain</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#blog" class="scroll-animate-icon page-scroll">
+       <i class="fa fa-angle-double-down faa-falling animated"></i>
+    </a>
+</section>
+<!-------------- testimonial part end------------------------>
+
+<!-------------- blog part start------------------------>
+<section id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="abt-txt pack text-center">
+                    <h2 class="font-title">Our Food Blog</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="blog-item">
+                    <div class="bl-img">
+                        <img src="images/blog1.jpeg" alt="blog" class="img-fluid w-100">
+                    </div>
+                    <div class="blog-txt">
+                    <h3>Blog one</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Magnam amet exercitationem accusantium eius consequuntur.</p>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="blog-rd-a">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="blog-item">
+                    <div class="bl-img">
+                        <img src="images/blog2.jpeg" alt="blog" class="img-fluid w-100">
+                    </div>
+                    <div class="blog-txt">
+                    <h3>Blog one</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Magnam amet exercitationem accusantium eius consequuntur.</p>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="blog-rd-a">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 m-auto">
+                <div class="blog-item">
+                    <div class="bl-img">
+                        <img src="images/blog3.jpeg" alt="blog" class="img-fluid w-100">
+                    </div>
+                    <div class="blog-txt">
+                    <h3>Blog one</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Magnam amet exercitationem accusantium eius consequuntur.</p>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="blog-rd-a">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#footer" class="scroll-animate-icon page-scroll">
+       <i class="fa fa-angle-double-down faa-falling animated"></i>
+    </a>
+</section>
+<!-------------- blog part end------------------------>
+
+<!-------------- footer part start------------------------>
+<footer id="footer">
+    <a class="back-to-top" href="#">
+        <i class="fas fa-arrow-up"></i>  <!------------ back to top -------->
+    </a>
+    <div class="ft-overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="abt-txt pack text-center">
+                    <h2 class="font-title">Contact</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="ft-item ft-md">
+                    <h3>Location</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> : 1419, Jatrabari, Dhaka, Bangladesh</p>
+                    <p><i class="fas fa-mobile-alt"></i> : +880-01670-000000</p>
+                    <p><i class="fas fa-envelope"></i> : 1419@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="ft-item ft-md">
+                    <h3>Open Time</h3>
+                    <p><i class="fas fa-clock"></i> : Monday - Thursday.... 10:00 AM - 7:00 PM</p>    
+                    <p><i class="fas fa-clock"></i> : Friday - Saturday.... 10:00 AM - 11:00 PM</p>    
+                    <p><i class="fas fa-times-circle"></i> : Sunday.....Close</p>    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-10 m-auto">
+                <div class="ft-item ft-md">
+                    <h3 class="ft-h3">Instagram</h3>
+                    <div class="row">
+                        <div class="col-lg-4 col-6 col-sm-6 col-md-4 ft-gallery">
+                            <div class="inst-item">
+                                <img src="images/inst1.jpeg" alt="instagram" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 col-sm-6 col-md-4 ft-gallery">
+                            <div class="inst-item">
+                                <img src="images/inst2.jpeg" alt="instagram" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 col-sm-6 col-md-4 ft-gallery">
+                            <div class="inst-item">
+                                <img src="images/inst3.jpeg" alt="instagram" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 col-sm-6 col-md-4 ft-gallery">
+                            <div class="inst-item">
+                                <img src="images/inst4.jpeg" alt="instagram" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 col-sm-6 col-md-4 ft-gallery">
+                            <div class="inst-item">
+                                <img src="images/inst5.jpeg" alt="instagram" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 col-sm-6 col-md-4 ft-gallery">
+                            <div class="inst-item">
+                                <img src="images/inst6.jpeg" alt="instagram" class="img-fluid w-100">
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-------------- footer part end------------------------>
+
+<!-------------- footer bottom part start------------------------>
+<section id="footer-btm">
+    <div class="ft-map">
+        <iframe src="https://www.google.com/maps/embed?pb=" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="copy text-center">
+                    <p>Copyright © 2019 Hunger is Powered By - Shahadat</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-------------- footer bottom part end------------------------>
+
+                        
+<script src="js/jquery-1.12.4.min.js"></script>      
+<script src="js/bootstrap.min.js"></script>      
+<script src="js/typed.min.js"></script>      
+<script src="js/wow.min.js"></script>      
+<script src="js/mixitup.min.js"></script>
+<script src="js/carousel.js"></script> 
+<script src="js/jquery.counterup.min.js"></script>      
+<script src="js/lightbox.min.js"></script>      
+<script src="js/jquery.mb.YTPlayer.min.js"></script>      
+<script src="js/slick.min.js"></script>           
+<script src="js/waypoints.min.js"></script>                
+<script src="js/venobox.js"></script>                
+<script src="js/custom.js"></script>
+                               
+</body>
+</html>

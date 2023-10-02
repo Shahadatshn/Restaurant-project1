@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1, maximum-scale-1">
+    <title>Resturant gallery page site</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-animation.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" type="text/css" href="css/venobox.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,600i,700" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+</head>
+<body>
+<!-------preloader part start--------->
+<!--
+<div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+</div> 
+-->
+ 
+<!--
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+-->
+    
+<!-------preloader part end--------->
+
+<!-------navbar part start--------->    
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo2.png" alt="logo">
+            <i class="fas fa-utensils"></i>
+        </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" target="_blank">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html" target="_blank">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reserve.html" target="_blank">Reservation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html" target="_blank">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="offer.html" target="_blank">Offer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html" target="_blank">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+              </li>
+            </ul>
+          </div>
+    </div>
+</nav>
+<!-------------- navbar part end------------------------> 
+  
+<!-------------- gallery page banner part start------------------------> 
+<section id="gall-ban">
+   <div class="gall-page-lay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="gall-ban-txt text-center">
+                    <h1 class="font-title">Welcome to My Restaurant</h1>
+                    <h3>Our Gallery</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#gall-view" class="scroll-animate-icon page-scroll">
+       <i class="fa fa-angle-double-down faa-falling animated"></i>
+    </a>
+</section>  
+<!-------------- gallery page banner part end------------------------>   
+
+<!-------------- gallery view part start------------------------> 
+<section id="gall-view">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="abt-txt text-center">
+                    <h2 class="font-title">Our Category</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row gall-main mx-0">
+        <div class="col-lg-3 col-sm-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery1-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery1-bg.jpeg" data-lightbox="image-1" data-title="Grilled Meat">
+                            <i class="fas fa-search-plus"></i>   
+                        </a>
+                        <h3>Grilled Meat</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery2-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery2-bg.jpeg" data-lightbox="image-1" data-title="Delicious Food">
+                            <i class="fas fa-search-plus"></i>   
+                        </a> 
+                        <h3>Delicious Food</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery3-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery3-bg.jpeg" data-lightbox="image-1" data-title="Dosa">
+                            <i class="fas fa-search-plus"></i>   
+                        </a> 
+                        <h3>Dosa</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery1-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery1-bg.jpeg" data-lightbox="image-1" data-title="Grilled Meat">
+                            <i class="fas fa-search-plus"></i>   
+                        </a>
+                        <h3>Grilled Meat</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery4-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery4-bg.jpeg" data-lightbox="image-1" data-title="Vegetable Pasta">
+                            <i class="fas fa-search-plus"></i>   
+                        </a>   
+                        <h3>Vegetable Pasta</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery8-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery8-bg.jpeg" data-lightbox="image-1" data-title="Beverage">
+                            <i class="fas fa-search-plus"></i>   
+                        </a>  
+                        <h3>Beverage</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery5-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery5-bg.jpeg" data-lightbox="image-1" data-title="Special Salad">
+                            <i class="fas fa-search-plus"></i>   
+                        </a> 
+                        <h3>Special Salad</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery1-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery1-bg.jpeg" data-lightbox="image-1" data-title="Grilled Meat">
+                            <i class="fas fa-search-plus"></i>   
+                        </a>
+                        <h3>Grilled Meat</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery8-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery8-bg.jpeg" data-lightbox="image-1" data-title="Beverage">
+                            <i class="fas fa-search-plus"></i>   
+                        </a>  
+                        <h3>Beverage</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery6-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery6-bg.jpeg" data-lightbox="image-1" data-title="Chocolate Cake">
+                            <i class="fas fa-search-plus"></i>   
+                        </a>  
+                        <h3>Chocolate Cake</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery1-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery1-bg.jpeg" data-lightbox="image-1" data-title="Grilled Meat">
+                            <i class="fas fa-search-plus"></i>   
+                        </a>
+                        <h3>Grilled Meat</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery7-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery7-bg.jpeg" data-lightbox="image-1" data-title="Fish Fry">
+                            <i class="fas fa-search-plus"></i>   
+                        </a>   
+                        <h3>Fish Fry</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery3-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery3-bg.jpeg" data-lightbox="image-1" data-title="Dosa">
+                            <i class="fas fa-search-plus"></i>   
+                        </a> 
+                        <h3>Dosa</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery8-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery8-bg.jpeg" data-lightbox="image-1" data-title="Beverage">
+                            <i class="fas fa-search-plus"></i>   
+                        </a>  
+                        <h3>Beverage</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery3-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery3-bg.jpeg" data-lightbox="image-1" data-title="Dosa">
+                            <i class="fas fa-search-plus"></i>   
+                        </a> 
+                        <h3>Dosa</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="gallery-item wow fadeInUp">
+                <img src="images/gallery6-sm.jpeg" alt="gallery1" class="img-fluid w-100">
+                <div class="gall-effect">
+                    <div class="text">
+                        <a href="images/gallery6-bg.jpeg" data-lightbox="image-1" data-title="Chocolate Cake">
+                            <i class="fas fa-search-plus"></i>   
+                        </a>  
+                        <h3>Chocolate Cake</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <a href="#gal-card" class="scroll-animate-icon page-scroll">
+       <i class="fa fa-angle-double-down faa-falling animated"></i>
+    </a>
+</section>  
+<!-------------- gallery view part end------------------------> 
+
+<!-------------- gallery card part start------------------------> 
+<section id="gal-card">
+    <div class="container">
+        <div class="row gal-slider">
+            <div class="col-lg-6">
+                <div class="cd-card">
+                    <div class="cd-img">
+                        <img src="images/cd-img1.jpg" alt="cd-img" class="img-fluid w-100">
+                    </div>
+                    <div class="cd-txt">
+                        <h3>enjoy the food</h3>
+                        <h4>
+                            <i class="fas fa-utensils"></i>
+                        </h4><hr>
+                        <p>Lorem ipsum dolor sit amet, <span>consectetur adipisicing elit. Mollitia iure numquam distinctio, quasi dolore adipisci.</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="cd-card">
+                    <div class="cd-img">
+                        <img src="images/cd-img2.jpg" alt="cd-img" class="img-fluid w-100">
+                    </div>
+                    <div class="cd-txt">
+                        <h3>enjoy the food</h3>
+                        <h4>
+                            <i class="fas fa-utensils"></i>
+                        </h4><hr>
+                        <p>Lorem ipsum dolor sit amet, <span>consectetur adipisicing elit. Mollitia iure numquam distinctio, quasi dolore adipisci.</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="cd-card">
+                    <div class="cd-img">
+                        <img src="images/cd-img4.jpg" alt="cd-img" class="img-fluid w-100">
+                    </div>
+                    <div class="cd-txt">
+                        <h3>enjoy the food</h3>
+                        <h4>
+                            <i class="fas fa-utensils"></i>
+                        </h4><hr>
+                        <p>Lorem ipsum dolor sit amet, <span>consectetur adipisicing elit. Mollitia iure numquam distinctio, quasi dolore adipisci.</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="cd-card">
+                    <div class="cd-img">
+                        <img src="images/cd-img3.jpg" alt="cd-img" class="img-fluid w-100">
+                    </div>
+                    <div class="cd-txt">
+                        <h3>enjoy the food</h3>
+                        <h4>
+                            <i class="fas fa-utensils"></i>
+                        </h4><hr>
+                        <p>Lorem ipsum dolor sit amet, <span>consectetur adipisicing elit. Mollitia iure numquam distinctio, quasi dolore adipisci.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#footer" class="scroll-animate-icon page-scroll">
+       <i class="fa fa-angle-double-down faa-falling animated"></i>
+    </a>
+</section>
+<!-------------- gallery card part end------------------------> 
+   
+
+ <!-------------- footer part start------------------------>
+<footer id="footer">
+    <a class="back-to-top" href="#">
+        <i class="fas fa-arrow-up"></i>  <!------------ back to top -------->
+    </a>
+    <div class="ft-overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="abt-txt pack text-center">
+                    <h2 class="font-title">Contact</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="ft-item ft-md">
+                    <h3>Location</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> : 1419, Jatrabari, Dhaka, Bangladesh</p>
+                    <p><i class="fas fa-mobile-alt"></i> : +880-01670-000000</p>
+                    <p><i class="fas fa-envelope"></i> : 1419@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="ft-item ft-md">
+                    <h3>Open Time</h3>
+                    <p><i class="fas fa-clock"></i> : Monday - Thursday.... 10:00 AM - 7:00 PM</p>    
+                    <p><i class="fas fa-clock"></i> : Friday - Saturday.... 10:00 AM - 11:00 PM</p>    
+                    <p><i class="fas fa-times-circle"></i> : Sunday.....Close</p>    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-10 m-auto">
+                <div class="ft-item ft-md">
+                    <h3 class="ft-h3">Instagram</h3>
+                    <div class="row">
+                        <div class="col-lg-4 col-6 col-sm-6 col-md-4 ft-gallery">
+                            <div class="inst-item">
+                                <img src="images/inst1.jpeg" alt="instagram" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 col-sm-6 col-md-4 ft-gallery">
+                            <div class="inst-item">
+                                <img src="images/inst2.jpeg" alt="instagram" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 col-sm-6 col-md-4 ft-gallery">
+                            <div class="inst-item">
+                                <img src="images/inst3.jpeg" alt="instagram" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 col-sm-6 col-md-4 ft-gallery">
+                            <div class="inst-item">
+                                <img src="images/inst4.jpeg" alt="instagram" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 col-sm-6 col-md-4 ft-gallery">
+                            <div class="inst-item">
+                                <img src="images/inst5.jpeg" alt="instagram" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6 col-sm-6 col-md-4 ft-gallery">
+                            <div class="inst-item">
+                                <img src="images/inst6.jpeg" alt="instagram" class="img-fluid w-100">
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-------------- footer part end------------------------>
+
+<!-------------- footer bottom part start------------------------>
+<section id="footer-btm">
+    <div class="ft-map">
+        <iframe src="https://www.google.com/maps/embed?pb=" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="copy text-center">
+                    <p>Copyright © 2019 Hunger is Powered By - Shahadat</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-------------- footer bottom part end------------------------>  
+   
+      
+<script src="js/jquery-1.12.4.min.js"></script>      
+<script src="js/bootstrap.min.js"></script>      
+<script src="js/typed.min.js"></script>      
+<script src="js/wow.min.js"></script>      
+<script src="js/mixitup.min.js"></script>
+<script src="js/carousel.js"></script> 
+<script src="js/jquery.counterup.min.js"></script>      
+<script src="js/lightbox.min.js"></script>      
+<script src="js/jquery.mb.YTPlayer.min.js"></script>      
+<script src="js/slick.min.js"></script>           
+<script src="js/waypoints.min.js"></script>                
+<script src="js/venobox.js"></script>                
+<script src="js/custom.js"></script>         
+            
+                    
+</body>
+</html>
