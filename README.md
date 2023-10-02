@@ -1,2 +1,2 @@
 # Restaurant-project1
-Restaurant web site. 
+ https://shahadatshn.github.io/Restaurant-project1/ 
